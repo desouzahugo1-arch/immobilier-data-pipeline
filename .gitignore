@@ -1,0 +1,11 @@
+.env
+*.env
+data/
+*.csv
+*.json
+*.geojson
+*.joblib
+*.pkl
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
