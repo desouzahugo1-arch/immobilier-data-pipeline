@@ -19,6 +19,9 @@ Sources brutes (JSON/GeoJSON) -> MinIO raw -> curated -> refined
 Python, Pandas, NumPy, Scikit-learn, MinIO
 
 ## Lancer le projet
+
+```bash
 docker run -p 9000:9000 -p 9001:9001 minio/minio server /data --console-address ":9001"
 pip install -r requirements.txt
 jupyter notebook
+```
